@@ -18,14 +18,14 @@ def diagnostico(renda, moradia, educacao, transporte):
         print(f'Seus gastos com moradia comprometem {permoradia} % de sua renda total. O máximo recomendado é 30%. Portanto, idealmente, o máximo de sua renda comprometida com moradia deveria ser de R$ {round((renda*0.3),2)} .')
 
     if pereducacao <= 20:
-        print(f'Seus gastos com educação comprometem {pereducacao} % de sua renda total. O máximo recomendado é 30%. Seus gastos estão dentro da margem recomendada.')
+        print(f'Seus gastos com educação comprometem {pereducacao} % de sua renda total. O máximo recomendado é 20%. Seus gastos estão dentro da margem recomendada.')
     else:
-        print(f'Seus gastos com educação comprometem {pereducacao} % de sua renda total. O máximo recomendado é 30%. Portanto, idealmente, o máximo de sua renda comprometida com educação deveria ser de R$ {round((renda*0.2),2)} .')
+        print(f'Seus gastos com educação comprometem {pereducacao} % de sua renda total. O máximo recomendado é 20%. Portanto, idealmente, o máximo de sua renda comprometida com educação deveria ser de R$ {round((renda*0.2),2)} .')
 
     if pertransporte <= 15:
-        print(f'Seus gastos com transporte comprometem {pertransporte} % de sua renda total. O máximo recomendado é 30%. Seus gastos estão dentro da margem recomendada.')
+        print(f'Seus gastos com transporte comprometem {pertransporte} % de sua renda total. O máximo recomendado é 15%. Seus gastos estão dentro da margem recomendada.')
     else:
-        print(f'Seus gastos com transporte comprometem {pertransporte} % de sua renda total. O máximo recomendado é 30%. Portanto, idealmente, o máximo de sua renda comprometida com transporte deveria ser de R$ {round((renda*0.15),2)} .')
+        print(f'Seus gastos com transporte comprometem {pertransporte} % de sua renda total. O máximo recomendado é 15%. Portanto, idealmente, o máximo de sua renda comprometida com transporte deveria ser de R$ {round((renda*0.15),2)} .')
 
 
 while True:
